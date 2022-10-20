@@ -15,9 +15,9 @@ export const works = [
     img: nextjs3,
     key: 'next',
     title: 'Developer Portfolio Application',
-    link: 'https://nextjs-shopee-ecommerce-q9fi.vercel.app/',
-    desc: 'This application is UI design for ecommerce using NextJS, Sass, and HTML5. Here, Context Api is properly used for state management purpose.',
-    github: 'https://github.com/swornim-csit/nextjs-shopee-ecommerce.git',
+    link: 'https://nextjs-portfolio-app-sigma.vercel.app/',
+    desc: 'Developer Portfilio application build using NextJS, Tailwind CSS, and HTML5. Here, Context Api is properly used for state management purpose.',
+    github: 'https://github.com/swornim-csit/nextjs-portfolio-app.git',
   },
   {
     id:22,
