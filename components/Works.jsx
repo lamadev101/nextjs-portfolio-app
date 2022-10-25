@@ -11,7 +11,7 @@ const Works = () => {
   const projects = works.filter(({key})=>{return key === value});
 
   return (
-    <div className='relative my-5 md:my-10 pt-5'>
+    <div className='relative my-5 md:my-10 pt-5 z-1'>
       <h1 className=' text-center text-3xl underline text-teal-500'>Portfolio</h1>
       <div className='flex justify-center items-center gap-5 my-5 text-gray-800 dark:text-white'>
         {categories.map((item, idx)=>(
@@ -27,10 +27,10 @@ const Works = () => {
               <p className=' text-gray-400 text-sm font-thin'>{project.desc}</p>
               <div className='flex flex-row justify-between items-center'>
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
-                  <span className='flex flex-row items-center text-lg cursor-pointer text-cyan-600 underline underline-offset-auto'><BsLink45Deg/> github.com</span>
+                  <span className='flex flex-row items-center text-sm cursor-pointer text-cyan-600 underline underline-offset-auto lg:text-xl'><BsLink45Deg/> github.com</span>
                 </a>
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <span className='flex flex-row items-center underline text-lg cursor-pointer text-blue-600 text-underline-offset-auto'><TbWorldUpload/> https://website.com </span>
+                  <span className='flex flex-row items-center underline text-sm cursor-pointer text-blue-600 text-underline-offset-auto lg:text-xl'><TbWorldUpload/> https://website.com </span>
                 </a>
               </div>
             </div>

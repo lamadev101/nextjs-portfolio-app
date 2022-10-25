@@ -10,7 +10,7 @@ const Intro = () => {
         <span className='dark:text-teal-400'>HI, There <br /> I&apos;m </span>
         <h1 className=' text-4xl dark:text-white'>Karma Lama Ghising</h1>
         <h3 className=' text-2xl pt-5 dark:text-teal-600'>Developer and Designer</h3>
-        <p className=' text-gray-500 dark:text-slate-300 mx-5 px-5 md:leading-8 italic font-thin'>React Developer with hands-on experience in identifying web-based user interactions along with designing &
+        <p className=' text-gray-500 dark:text-slate-300 mx-5 px-5 md:leading-8 italic font-thin text-sm md:text-lg'>React Developer with hands-on experience in identifying web-based user interactions along with designing &
 implementing highly-responsive user interface components by deploying React concepts. Proficient in translating designs &
 Wireframes into high-quality code, and writing application interface code via lavascript and ReactJS workflows. Adept at monitoring &
 :maintaining frontend performance and troubleshooting & debugging the same to bolster overall performance</p>

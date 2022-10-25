@@ -7,6 +7,8 @@ import reactjs1 from '.././../public/img/work/reactjs1.png'
 import reactjs2 from '.././../public/img/work/reactjs2.png'
 import reactjs3 from '.././../public/img/work/reactjs3.png'
 import reactjs4 from '.././../public/img/work/reactjs4.png'
+import reactjs5 from '.././../public/img/work/reactjs5.png'
+
 import js1 from '.././../public/img/work/js1.png'
 
 export const works = [
@@ -38,7 +40,16 @@ export const works = [
     github: 'https://github.com/swornim-csit/nextjs-digital-agency-kgt.git',
   },
   {
-    id: 6,
+    id: 31,
+    img: reactjs5,
+    key: 'react',
+    title: 'LamaSocial - Social Media App',
+    link: 'https://lama-social-midea-app.netlify.app/',
+    desc:"This applicatiion is fully responsive with Mobile devices. It has a dark theme features.",
+    github: 'https://github.com/swornim-csit/reactjs-lama-social-app.git',
+  },
+  {
+    id: 32,
     img: reactjs3,
     key: 'react',
     title: 'Fitness- Api Fetch Application',
@@ -47,7 +58,7 @@ export const works = [
     github: 'https://github.com/swornim-csit/react-fitness-project.git',
   },
   {
-    id: 2,
+    id: 33,
     img: reactjs1,
     key: 'react',
     title: 'Photographer Stunning Portfolio',
@@ -56,7 +67,7 @@ export const works = [
     github: 'https://github.com/swornim-csit/reactjs-photographer-portfolio-capture.git',
   },
   {
-    id: 3,
+    id: 11,
     img: js1,
     key: 'vjs',
     title: 'Nikestore - Single Page Application',
@@ -65,7 +76,7 @@ export const works = [
     github: 'https://github.com/swornim-csit/vanillajs-nikestore-app.git',
   },
   {
-    id: 4,
+    id: 34,
     img: reactjs2,
     key: 'react',
     title: 'Royata - Restaurant Menu App',
@@ -74,7 +85,7 @@ export const works = [
     github: 'https://github.com/swornim-csit/reactjs-restaurant-menu-app.git',
   },
   {
-    id: 5,
+    id: 35,
     img: reactjs4,
     key: 'react',
     title: 'React Redux Application',
